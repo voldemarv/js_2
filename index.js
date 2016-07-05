@@ -1,7 +1,7 @@
 
-var n = Number(prompt('Enter number'))
+var n = Number(prompt('Enter number'));
 
-function fibonacci() {
+function fibonacci(n) {
   var num;
 
   if (n >= 2) {
@@ -13,4 +13,4 @@ function fibonacci() {
   return num;
 }
 
-alert(fibonacci());
+alert(fibonacci(n));
