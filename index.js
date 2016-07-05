@@ -1,5 +1,5 @@
 
-var n = Number(prompt('Enter number of Fibonacci numeric));
+var n = Number(prompt('Enter number of Fibonacci numeric'));
 
 function fibonacci(n) {
   var num;
